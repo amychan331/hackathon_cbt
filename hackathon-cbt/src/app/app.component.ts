@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-declare var jQuery: any;
+import * as jquery from 'jquery';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +11,8 @@ export class AppComponent implements OnInit{
   title = 'app';
 
   ngOnInit() {
-
+  	jQuery('.meow').on('click', function() {
+  		console.log("KSDJFLKDSJ");
+  	})
   }
 }
