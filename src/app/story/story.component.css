@@ -1,15 +1,36 @@
 /* === MAIN CONTENT === */
-#container span {
-  display: inline-block;
-  height: 175px;
+#container {
+  margin: auto;
   text-align: center;
-  width: 175px;
+}
+
+.story-video iframe {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.story-text {
+  background-color: #d5e7de;
+  text-align: left;
+  margin: auto;
+  margin-top: 3%;
+  padding: 1%;
+  width: 75%;
 }
 
 /* === MEDIA QUERIES === */
 @media (max-width: 568px) {
   #container {
-    margin: auto;
-    text-align: center;
+    width: 100%;
+  }
+  .story-video iframe {
+    height: 360px;
+    width: 360px;
+    overflow: hidden;
+  }
+  .story-text {
+    margin-top: 1%;
+    width: 100%;
   }
 }
