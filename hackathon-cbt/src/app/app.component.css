@@ -1,6 +1,5 @@
 /* === HEADERS & NAV === */
 nav {
-  color: black;
   float: right;
   font-size: 1.25em;
   font-weight: 300;
@@ -30,14 +29,15 @@ nav li {
 }
 
 nav a {
-  border-bottom: 12px solid black;
-  color: black;
+  border-bottom: 12px solid #436654;
+  color: #436654;
   text-decoration: none;
 }
 
 nav ul a:hover,
 nav ul a:active {
-  border-bottom: 12px solid grey;
+  color: #76b294;
+  border-bottom: 12px solid #76b294;
 }
 
 /* === MEDIA QUERIES === */
