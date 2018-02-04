@@ -1,25 +1,16 @@
-/* === DEFAULT SETTINGS === */
-body {
-  font-family: sans-serif;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
 /* === HEADERS & nav === */
 nav {
+  color: black;
   float: right;
   font-size: 1.25em;
+  font-weight: 300;
 }
 
 nav ul {
   display: inline-block;
-  border-bottom: 6px solid #c1272d;
   float: right;
   list-style-type: none;
   position: relative;
-  margin-top: 30px;
 }
 
 nav i.fa-bars {
@@ -28,19 +19,18 @@ nav i.fa-bars {
 
 nav li {
   float: left;
-  height: auto;
   padding-right: 20px;
-  width: auto;
 }
 
 nav a {
+  border-bottom: 12px solid black;
   color: black;
   text-decoration: none;
 }
 
 nav ul a:hover,
 nav ul a:active {
-  border-bottom: 12px solid #c1272d;
+  border-bottom: 12px solid grey;
 }
 
 /* === MEDIA QUERIES === */
@@ -52,7 +42,7 @@ nav ul a:active {
   }
 
   nav li {
-    height: 43.5px;
+    height: 50px;
     width: 100%;
   }
 
