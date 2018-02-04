@@ -3,27 +3,24 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
-import { ExerciseComponent } from './exercise/exercise.component';
-import { LogComponent } from './log/log.component';
+import { LearnComponent } from './learn/learn.component';
+import { DoComponent } from './do/do.component';
 
 import { AppComponent } from './app.component';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/home', pathMatch:'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'exercise', component: ExerciseComponent },
-  { path: 'log', component: LogComponent }
+  { path: 'learn', component: LearnComponent },
+  { path: 'do', component: DoComponent }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent,
-    ExerciseComponent,
-    LogComponent
+    LearnComponent,
+    DoComponent
   ],
   imports: [
     BrowserModule,
