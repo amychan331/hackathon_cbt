@@ -1,5 +1,7 @@
 /* === HEADERS & NAV === */
 nav {
+  background: white;
+  height: auto;
   float: right;
   font-size: 1.25em;
   font-weight: 300;
@@ -44,19 +46,28 @@ nav ul a:active {
 @media (max-width: 812px) {
   nav ul {
     display: none;
-    float: none;
+    float: 0;
+    padding: none;
     position: relative;
+    width: 100%;
   }
 
   nav li {
-    height: 50px;
+    background: #d5e7de;
+    padding: none;
+    padding-top: 8px;
+    height: 25px;
+    text-align: center;
     width: 100%;
+  }
+
+  nav a {
+    border: none;
   }
 
   nav i.fa-bars {
     display: inline-block;
     float: right;
     padding: 4%;
-    padding-left: 0;
   }
 }
