@@ -3,8 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'story',
   templateUrl: './story.component.html',
-  styleUrls: ['./story.component.css']
+  styleUrls: ['./story.component.css'],
 })
-export class storyComponent {
+export class StoryComponent {
   title = 'story';
 }
