@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { LearnComponent } from './learn/learn.component';
 import { StoryComponent } from './story/story.component';
 import { DoComponent } from './do/do.component';
+import { ReflectComponent } from './reflect/reflect.component';
 
 import { AppComponent } from './app.component';
 
@@ -14,7 +15,8 @@ const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'learn', component: LearnComponent },
   { path: 'story', component: StoryComponent },
-  { path: 'do', component: DoComponent }
+  { path: 'do', component: DoComponent },
+  { path: 'reflect', component: ReflectComponent }
 ];
 
 @NgModule({
@@ -23,7 +25,8 @@ const appRoutes: Routes = [
     HomeComponent,
     LearnComponent,
     StoryComponent,
-    DoComponent
+    DoComponent,
+    ReflectComponent
   ],
   imports: [
     BrowserModule,

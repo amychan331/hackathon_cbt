@@ -1,0 +1,18 @@
+/* === MAIN CONTENT === */
+#container {
+  margin: auto;
+  text-align: center;
+  width: 95%;
+}
+
+form {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  border: 0;
+  border-bottom: 3px solid #436654;
+  margin-bottom: 5%;
+}
