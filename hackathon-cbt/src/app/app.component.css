@@ -1,9 +1,16 @@
-/* === HEADERS & nav === */
+/* === HEADERS & NAV === */
 nav {
   color: black;
   float: right;
   font-size: 1.25em;
   font-weight: 300;
+}
+
+nav.fixed-header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%  !important;
 }
 
 nav ul {
@@ -52,12 +59,4 @@ nav ul a:active {
     padding: 4%;
     padding-left: 0;
   }
-}
-
-.fixed-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  width: 100%  !important;
 }
